@@ -74,3 +74,39 @@ body {
     font-size: 48px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 800px) {
+    .desktop {
+        display: none;
+    }
+
+    .navbar {
+        margin-left: 30px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+    .mobile {
+        background-color: #DEB6AB;
+        margin-top: 40px;
+        height: calc(100vh - 105px);
+        width: 100vw;
+        border-radius: 50px 50px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slogan1 {
+        font-size: 36px;
+        display: block;
+        width: 100%;
+    }
+
+    .subscribe {
+        font-size: 20px;
+        padding: 25px 30px 25px 30px;
+        margin-top: 40px;
+    }
+}
